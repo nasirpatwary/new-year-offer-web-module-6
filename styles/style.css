@@ -247,15 +247,16 @@ margin-bottom: 60px;
     line-height: 24px;
 }
 /* holidays-container start  */
-    .holidays-container{
+/* .holidays-container{
     max-width: 1320px;
+    height: 600px;
     margin: 0 auto; 
     position: relative;
+    margin-bottom: 200px;
 }
 .holiday-content{
     width: 830px;
     display: flex;
-    height: 260px;
     flex-direction: column;
     margin: auto;
 }
@@ -265,7 +266,7 @@ margin-bottom: 60px;
     font-size: 16px;
     font-weight: 500;  
     text-align: center; 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .holiday-content h2{
     font-family: "Merriweather", serif;    
@@ -283,29 +284,132 @@ margin-bottom: 60px;
     font-size: 16px;
     font-weight: 500;
     text-align: center;
-}
-.solid-border{
+} */
+/* gift box style */
+/* .border-box{
     width: 1320px;
-    height: 270px;
+    height: 250px;
     background-color: red;
     position: absolute;
-    top: 80%;
+    top: 90%;
+    
 }
-.flex-box-items{
-    width: 674.82px;
-    height: 577.96px;
+.gift-box{
     position: relative;
     z-index: 1;
-}
-.flex-all-container{
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
-.cricle-border img{
-    width: 200px;
-    border: 2px dashed lightgray;
-    margin-right :200px;
-    margin-bottom :100px;
+.cricle-border{
+    width: 305.69px;
+    height: 305.69px;
+    position: relative;
+} */
+.the-best-gifts{
+    width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.awesome-porfolio{
+    width: 876px;
+    height: 64px;
+    margin-bottom: 50px;
+}
+.awesome-porfolio h5{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;   
+    font-size: 16px;
+    font-weight: 500;
+}
+.awesome-porfolio h2{
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", 
+    serif;font-size: 40px;
+    font-weight: 800;
+}
+.awesome-porfolio p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.img-box{
+    width: 380px;
+    height: 450px;
+}
+/* .img-box img{
+    width: 100%;
+} */
+.awesome-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
+/* subscribe-now  start*/
+.subscribe-now{
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-container{
+    width: 730px;
+    height: 336px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;  
+}
+.image-center{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.image-center img{
+    width: 100px;
+    height: 100px; 
+}
+.subscribe-container h2{
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.subscribe-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;    
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.input-btn{
+    width: 648px;
+    height: 72px;
+    margin: 0 auto;
+    text-align: center;
+}
+.input-btn input{
+    width: 70%;
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 25px 0 0 25px;
+    border: none;
+}
+.btn{
+    background-color:  rgb(255, 0, 0);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 45px;
+    border-radius: 0px 25px 25px 0px;
+}
